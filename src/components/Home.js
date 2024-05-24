@@ -11,7 +11,6 @@ import Successstory from '../assets/Successstory'
 import Slider2 from '../assets/slider2'
 import Getintouch from '../assets/Getintouch'
 import Smalllogos from '../assets/Smalllogos'
-
 const Home = () => {
   return (<div className='lg:h-[6304px] md:h-[4700px] h-[4855px]'>
     <div className='mt-[-80px]  lg:h-[729.33px] h-[500px] md:h-[510px] overflow-hidden z-0 '>
