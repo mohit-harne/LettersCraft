@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import bluehalfwave from '../assets/images/bluehalfwave.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile, faUser, faEnvelope, faMobileAlt, faLanguage, faTruck } from '@fortawesome/free-solid-svg-icons';
 import gt1 from '../assets/images/getintouchicons/gt1.png';
 import gt2 from '../assets/images/getintouchicons/gt2.png';
