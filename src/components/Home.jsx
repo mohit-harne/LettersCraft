@@ -1,7 +1,6 @@
 import React from 'react'
 import topbg from '../assets/images/topbg.png'
 import netweb from '../assets/images/netweb.png'
-import { TypeAnimation } from 'react-type-animation'
 import Slider1 from '../assets/slider1';
 import sgflag from '../assets/images/sgflag.png'
 import Tservices from '../assets/Tservices'
