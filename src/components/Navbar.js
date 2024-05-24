@@ -13,7 +13,9 @@ const Navbar = () => {
     const handleScroll = () => {
       setIsSticky(window.scrollY > 0);
     };
+
     window.addEventListener('scroll', handleScroll);
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -78,7 +80,7 @@ const Navbar = () => {
           <div className='flex gap-[8px]'>
             <Link to="/mail" className="bg-[#3D65FF] text-white text-[14px] font-medium py-[8px] px-[16px] rounded-[100px]">
               <div className='flex justify-center items-center gap-[4px]'>
-                <img className='h-[16px] w-[16px] mt-[1px] ' src={mailicon} alt='M' />
+                <img className='h-[16px] w-[16px] mt-[1px]' src={mailicon} alt='M' />
                 info@lettercrafts.org
               </div>
             </Link>

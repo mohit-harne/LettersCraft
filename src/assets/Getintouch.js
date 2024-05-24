@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import bluehalfwave from '../assets/images/bluehalfwave.png';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFile, faUser, faEnvelope, faMobileAlt, faLanguage, faTruck } from '@fortawesome/free-solid-svg-icons';
 import gt1 from '../assets/images/getintouchicons/gt1.png';
 import gt2 from '../assets/images/getintouchicons/gt2.png';
 import gt3 from '../assets/images/getintouchicons/gt3.png';
@@ -71,7 +72,7 @@ const Getintouch = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                   
+                    <FontAwesomeIcon icon={faUser} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="text"
@@ -87,7 +88,7 @@ const Getintouch = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                 
+                    <FontAwesomeIcon icon={faEnvelope} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="email"
@@ -103,7 +104,7 @@ const Getintouch = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="phone"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                   
+                    <FontAwesomeIcon icon={faMobileAlt} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="tel"
@@ -119,7 +120,7 @@ const Getintouch = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="slanguage"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                  
+                    <FontAwesomeIcon icon={faLanguage} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="text"
@@ -135,7 +136,7 @@ const Getintouch = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="tlanguage"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                   
+                    <FontAwesomeIcon icon={faLanguage} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="text"
@@ -151,7 +152,7 @@ const Getintouch = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="deliveryoption"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                   
+                    <FontAwesomeIcon icon={faTruck} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="text"
@@ -167,7 +168,7 @@ const Getintouch = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                   
+                    <FontAwesomeIcon icon={faFile} className="text-[#101D2E]" />
                   </span>
                   <input
                     name="message"

@@ -2,6 +2,8 @@ import topbg from '../assets/images/topbg.png'
 import netweb from '../assets/images/netweb.png'
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile, faUser, faEnvelope, faMobileAlt, faLanguage, faTruck, faTag, faStar, faGaugeHigh  } from '@fortawesome/free-solid-svg-icons';
 import bluewavebg from '../assets/images/bluewavebg.png'
 import Slider4 from '../assets/Slider4';
 import Workwithus from '../assets/Workwithus';
@@ -79,7 +81,7 @@ const Language = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                    
+                    <FontAwesomeIcon icon={faUser} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="text"
@@ -95,7 +97,7 @@ const Language = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                   
+                    <FontAwesomeIcon icon={faEnvelope} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="email"
@@ -111,7 +113,7 @@ const Language = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="phone"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                    
+                    <FontAwesomeIcon icon={faMobileAlt} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="tel"
@@ -127,7 +129,7 @@ const Language = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="slanguage"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                    
+                    <FontAwesomeIcon icon={faLanguage} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="text"
@@ -143,7 +145,7 @@ const Language = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="tlanguage"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                   
+                    <FontAwesomeIcon icon={faLanguage} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="text"
@@ -159,7 +161,7 @@ const Language = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="deliveryoption"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                   
+                    <FontAwesomeIcon icon={faTruck} className="text-[#101D2E]" />
                   </span>
                   <input
                     type="text"
@@ -175,7 +177,7 @@ const Language = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message"></label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                    
+                    <FontAwesomeIcon icon={faFile} className="text-[#101D2E]" />
                   </span>
                   <input
                     name="message"
@@ -230,17 +232,17 @@ const Language = () => {
   <h1 className='text-white text-[36px] font-medium text-center'>Why LetterCrafts?</h1>
   <div className='grid lg:grid-cols-3 md:grid-cols-2  lg:w-[1160px] md:w-[800px] gap-[20px] justify-center lg:scale-100 md:scale-75 scale-[80%]'> {/*cards*/}
 <div className='w-[373px] h-[260px] flex flex-col items-center justify-center bg-white rounded-[16px]'>
-
+<FontAwesomeIcon icon={faTag} className='text-[#3D65FF] h-[35px] w-[35px]' />
 <h1 className='text-[#101D2E] text-[24px] font-medium'>Best Rates</h1><br/>
 <h1 className='text-[#697587] text-[16px] font-normal w-[250px] text-justify'>You are welcome to provide any feedback or ask for corrections. We assure 6 months post project support to all our clients.</h1>
 </div>
 <div className='w-[373px] h-[260px] flex flex-col items-center justify-center bg-white rounded-[16px]'>
-
+<FontAwesomeIcon icon={faStar} className='text-[#3D65FF] h-[35px] w-[35px]' />
 <h1 className='text-[#101D2E] text-[24px] font-medium'>High Quality</h1><br/>
 <h1 className='text-[#697587] text-[16px] font-normal w-[250px] text-justify'>You are welcome to provide any feedback or ask for corrections. We assure 6 months post project support to all our clients.</h1>
 </div>
 <div className='w-[373px] h-[260px] flex flex-col items-center justify-center bg-white rounded-[16px]'>
-
+<FontAwesomeIcon icon={faGaugeHigh} className='text-[#3D65FF] h-[35px] w-[35px]' />
 <h1 className='text-[#101D2E] text-[24px] font-medium'>Speed</h1><br/>
 <h1 className='text-[#697587] text-[16px] font-normal w-[250px] text-justify'>You are welcome to provide any feedback or ask for corrections. We assure 6 months post project support to all our clients.</h1>
 </div>
