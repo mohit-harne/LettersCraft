@@ -54,8 +54,8 @@ const Getintouch = () => {
 
   return (
     <div className='lg:mt-[100px] md:mt-[0px] mt-[-130px] lg:h-[909px] md:h-[600px] w-screen text-white'>
-      <img className='lg:h-[909px] md:h-[600px] h-[500px] w-screen' src={bluehalfwave} alt='M'/>
-      <div className='lg:mt-[-700px] md:mt-[-600px] mt-[-570px] grid grid-flow-col justify-center lg:gap-[200px] md:gap-[50px] gap-[50px] lg:scale-100 md:scale-75 scale-[60%]'>
+      <img className='lg:h-[909px] md:h-[600px] h-[550px] w-screen' src={bluehalfwave} alt='M'/>
+      <div className='lg:mt-[-700px] md:mt-[-600px] mt-[-630px] grid grid-flow-col justify-center lg:gap-[200px] md:gap-[50px] gap-[50px] lg:scale-100 md:scale-75 scale-[60%]'>
         <div className='grid gap-[32px] pl-2'>
           <div className='lg:w-[420px] md:w-[420px] w-[230px] grid gap-[24px]'>
             <h1 className='text-[36px] font-medium'>Get in touch</h1>
