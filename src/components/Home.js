@@ -13,7 +13,7 @@ import Getintouch from '../assets/Getintouch'
 import Smalllogos from '../assets/Smalllogos'
 
 const Home = () => {
-  return (<div className='lg:h-[6304px] md:h-[4700px] h-[4855px]'>
+  return (<div className='lg:h-[6304px] md:h-[4700px] h-[4890px]'>
     <div className='mt-[-80px]  lg:h-[729.33px] h-[500px] md:h-[510px] overflow-hidden z-0 '>
       <img className='  w-screen h-[500px] lg:h-[728.33px] ' src={topbg} alt='M'/>
       <img className='lg:h-[692px] lg:w-[688px] h-[392px] w-[388px] mt-[-500px] lg:mt-[-730px] lg:ml-[920px] ml-[100px] md:ml-[480px] opacity-[10%]' src={netweb} alt='M'/>

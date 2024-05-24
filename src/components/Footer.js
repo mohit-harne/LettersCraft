@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'; // Import the arrow icon from FontAwesome
 import logo from '../assets/images/logo.png';
 import certifiedlogo from '../assets/images/certifiedlogo.png';
 import smlogo1 from '../assets/images/socialmedialogos/smlogo1.png';
@@ -67,7 +69,7 @@ const Footer = () => {
                   className="lg:hidden text-sm mt-2 underline"
                   onClick={() => toggleMenu(menu)}
                 >
-                  
+                  <FontAwesomeIcon icon={faAngleDown} className={`transition-transform duration-300 transform ${menuOpen[menu] ? 'rotate-180' : 'rotate-0'}`} />
                 </button>
               </div>
               <p className={`mt-2 ${menuOpen[menu] ? 'block' : 'hidden'} lg:block`}>
