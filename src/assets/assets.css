@@ -1,0 +1,46 @@
+.chat-bubble {
+    position: relative;
+  }
+  
+  .chat-bubble::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -20px; /* Adjust the position as needed */
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid white; /* Arrow color same as bubble */
+  }
+  
+  /* Media query for small devices */
+  @media (max-width: 767px) {
+    .chat-bubble::after {
+      left: -20px; /* Move the arrow to the left side */
+      right: auto; /* Reset right position */
+      border-left: none; /* Remove right arrow */
+      border-right: 20px solid white; /* Add left arrow */
+    }
+  }
+  
+
+  .chat-bubble2 {
+    position: relative;
+  }
+  
+  .chat-bubble2::before {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: -20px; /* Adjust the position as needed */
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid white; /* Arrow color same as bubble */
+    
+  }
+ 

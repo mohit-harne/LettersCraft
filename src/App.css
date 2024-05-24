@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face{
+  font-family: GorditaM;
+  src: url(../public/Gordita-Medium.otf);
+}
+
+.GorditaM {
+  font-family: GorditaM;
+}
+
+@font-face{
+  font-family: Gordita;
+  src: url(../public/Gordita-Regular.otf);
+}
+
+.Gordita {
+  font-family: Gordita;
+}
