@@ -1,6 +1,7 @@
 import React from 'react'
 import topbg from '../assets/images/topbg.png'
 import netweb from '../assets/images/netweb.png'
+import { TypeAnimation } from 'react-type-animation'
 import Slider1 from '../assets/slider1';
 import sgflag from '../assets/images/sgflag.png'
 import Tservices from '../assets/Tservices'
@@ -19,7 +20,18 @@ const Home = () => {
       </div>
       <div className='lg:mt-[-530px] lg:scale-100 md:scale-90 scale-75 lg:ml-[180px] md:ml-[30px] ml-[-30px] mt-[-440px] text-white'>
         <h1 className='text-[48px] font-bold leading-[68.4px] tracking-wider GorditaM'>LetterCrafts</h1> 
+        <TypeAnimation  sequence={[
+        'T',
+        1000, 
+        'Type Effect',
+        1000,
         
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '48px', display: 'inline-block', fontWeight: 'bold',  }} 
+      repeat={Infinity}
+    />
     <h1 className='lg:w-[460px] md:w-[460px] font-normal text-[16px] Gordita'><br/>Professional translators delivering<span className='font-semibold'> High Quality, Fast & Affordable</span> translation services in <img className='size-[19px] inline' src={sgflag} alt='M'/>&nbsp;Singapore.</h1><br/>
     <button className='Gordita text-[14px] font-medium px-[24px] py-[12px] rounded-[100px] bg-[#3D65FF]'>Learn More →</button>
       </div>
