@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/images/logo.png';
 import certifiedlogo from '../assets/images/certifiedlogo.png';
 import smlogo1 from '../assets/images/socialmedialogos/smlogo1.png';
@@ -69,7 +67,7 @@ const Footer = () => {
                   className="lg:hidden text-sm mt-2 underline"
                   onClick={() => toggleMenu(menu)}
                 >
-                  <FontAwesomeIcon icon={menuOpen[menu] ? faChevronUp : faChevronDown} />
+                  
                 </button>
               </div>
               <p className={`mt-2 ${menuOpen[menu] ? 'block' : 'hidden'} lg:block`}>
