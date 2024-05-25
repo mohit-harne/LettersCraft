@@ -46,18 +46,18 @@ const Navbar = () => {
           <CustomNavLink to="/blog" active={location.pathname === "/blog"} onClick={closeMenu}>Blog</CustomNavLink>
           <CustomNavLink to="/contact" active={location.pathname === "/contact"} onClick={closeMenu}>Contact</CustomNavLink>
           <div className='flex gap-[8px]'>
-            <Link to="/mail" className="bg-[#3D65FF] text-white text-[14px] font-medium py-[8px] px-[16px] rounded-[100px]">
+            <a href="mailto:info@lettercrafts.org" className="bg-[#3D65FF] text-white text-[14px] font-medium py-[8px] px-[16px] rounded-[100px]">
               <div className='flex justify-center items-center gap-[4px]'>
                 <img className='h-[16px] w-[16px] mt-[1px]' src={mailicon} alt='M' />
                 info@lettercrafts.org
               </div>
-            </Link>
-            <Link to="/call" className="bg-[#3D65FF] text-white text-[14px] font-medium py-[8px] px-[16px] rounded-[100px]">
+            </a>
+            <a href="tel:+6567110135" className="bg-[#3D65FF] text-white text-[14px] font-medium py-[8px] px-[16px] rounded-[100px]">
               <div className='flex justify-center items-center gap-[4px]'>
                 <img className='h-[16px] w-[16px] mt-[1px]' src={callicon} alt='M' />
                 +65 67110135
               </div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="lg:hidden">
@@ -82,18 +82,18 @@ const Navbar = () => {
           <CustomNavLink to="/blog" active={location.pathname === "/blog"} onClick={closeMenu}><h1 className='text-2xl font-bold'>Blog</h1></CustomNavLink>
           <CustomNavLink to="/contact" active={location.pathname === "/contact"} onClick={closeMenu}><h1 className='text-2xl font-bold'>Contact</h1></CustomNavLink>
           <div className='flex gap-[8px]'>
-            <Link to="/mail" className="bg-[#3D65FF] text-white text-[14px] font-medium py-[8px] px-[16px] rounded-[100px]">
+            <a href="mailto:info@lettercrafts.org" className="bg-[#3D65FF] text-white text-[14px] font-medium py-[8px] px-[16px] rounded-[100px]">
               <div className='flex justify-center items-center gap-[4px]'>
                 <img className='h-[16px] w-[16px] mt-[1px]' src={mailicon} alt='M' />
                 info@lettercrafts.org
               </div>
-            </Link>
-            <Link to="/call" className="bg-[#3D65FF] text-white text-[14px] font-medium py-[8px] px-[16px] rounded-[100px]">
+            </a>
+            <a href="tel:+6567110135" className="bg-[#3D65FF] text-white text-[14px] font-medium py-[8px] px-[16px] rounded-[100px]">
               <div className='flex justify-center items-center gap-[4px]'>
                 <img className='h-[16px] w-[16px] mt-[1px]' src={callicon} alt='M' />
                 +65 67110135
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -101,7 +101,6 @@ const Navbar = () => {
   );
 };
 
-// CustomNavLink component to handle active state
 const CustomNavLink = ({ to, active, onClick, children }) => (
   <NavLink
     to={to}
